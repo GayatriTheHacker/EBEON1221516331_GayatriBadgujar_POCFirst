@@ -1,0 +1,19 @@
+6. Find the output and write explanation?
+Answer.......................................................................................................................................................
+class Test 
+{
+ public static void main(String[] args)
+  {
+    byte b = 127;
+    ++b;
+    b++;
+    System.out.println("Value of variable b : "+b);
+  }
+
+}
+output..
+        1.-127
+        2. because Range of byte data type in java is -128 to 127 ,if we use ++b (first print then increament) then the value is 128 so it will consider as out of boundry so the actual              value will be -128
+        3.then perform 3rd operation i.e b++(first print then increament) then value is -128 
+        4.then print the value of b which is -127
+

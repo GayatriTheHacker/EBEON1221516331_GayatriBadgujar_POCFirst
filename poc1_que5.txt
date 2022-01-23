@@ -1,0 +1,15 @@
+5. Find the output and write explanation?
+Answer.......................................................................................................................................................
+class Main 
+{
+ public static void main(String[] args) 
+  {
+       int t;
+      System.out.println("Value of variable t : "+t);
+  }
+
+} 
+output..
+        1.error: variable t might not have been initialized
+        System.out.println("Value of variable t : "+t); compile time error
+        2.because the compiler never assigns a default value to an uninitialized local variable.once you declare a local variable you need to initialize it before using it for the first time.
